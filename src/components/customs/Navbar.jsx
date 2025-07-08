@@ -1,11 +1,5 @@
 import { Link } from 'react-router-dom';
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from '../ui/navigation-menu';
-// import {
-//   NavigationMenu,
-//   NavigationMenuList,
-//   NavigationMenuItem,
-//   NavigationMenuLink,
-// } from '@/ui/navigation-menu';
 
 function Navbar() {
   return (
