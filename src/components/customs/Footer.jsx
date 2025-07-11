@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 
    function Footer() {
      return (
-       <footer className="bg-gray-800 text-white py-4">
+       <footer className="bg-gray-600 text-white py-4">
          <div className="container mx-auto text-center">
            <p className="text-sm">© 2025 Personal Blog. All rights reserved.</p>
            <div className="mt-2 flex justify-center gap-4">

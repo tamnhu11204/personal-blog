@@ -21,7 +21,7 @@ const Blog = () => {
                         {posts.map(post => (
                             <Card key={post.id} className="cursor-pointer hover:shadow-lg transition relative">
                                 <div className="flex items-center justify-between p-4">
-                                    <CardTitle>{post.title}</CardTitle>
+                                    <CardTitle className="pr-3">{post.title}</CardTitle>
                                     <button
                                         onClick={() => handleShowDetail(post)}
                                         className="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center hover:bg-gray-800 transition z-10"
@@ -47,7 +47,7 @@ const Blog = () => {
                             <img
                                 src={selectedPost.img}
                                 alt={selectedPost.title}
-                                className="float-right ... w-90 h-60 object-cover mr-6 mb-4 rounded"
+                                className="float-right p-3 w-90 h-60 object-cover rounded"
                             />
                             <p className="text-gray-700 mb-4 mx-8 pl-4 text-justify">{selectedPost.content}</p>
                             <p className="text-sm text-gray-500 text-right mr-4">Date: {selectedPost.date}</p>

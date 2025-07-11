@@ -29,9 +29,9 @@ const Contact = () => {
         <div className="container mx-auto py-12 px-4">
             <h1 className="text-4xl font-bold mb-4 text-center">Contact</h1>
             <div className="flex flex-row">
-                <div className="basis-1/3">
+                <div className="basis-1/3 py-8">
                     <p className="text-2xl">Information </p>
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center space-x-4 pt-5">
                         <MapPin className="w-6 h-6 text-gray-600" />
                         <p className='text-gray-600'>
                             Linh Trung Ward, Thu Duc City
@@ -39,11 +39,11 @@ const Contact = () => {
                             Ho Chi Minh City, Vietnam
                         </p>
                     </div>
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center space-x-4  pt-5">
                         <Phone className="w-6 h-6 text-gray-600" />
                         <p className='text-gray-600'>+84 777 xxx xxx</p>
                     </div>
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center space-x-4  pt-5">
                         <Mail className="w-6 h-6 text-gray-600" />
                         <p className='text-gray-600'>tamnhu11204@gmail.com</p>
                     </div>

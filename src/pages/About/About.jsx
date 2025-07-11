@@ -7,8 +7,8 @@ const About = () => {
         <div className="container mx-auto py-12">
             <p className="text-4xl font-bold mb-4 text-center">About Me</p>
             <article>
-                <img class="float-left ... w-100 h-80" src={bunny} />
-                <img class="float-right ... w-40 h-50" src={bunny2} />
+                <img class="float-left p-3 w-100 h-80" src={bunny} />
+                <img class="float-right p-3 w-40 h-50" src={bunny2} />
                 <p class="clear-none ... text-gray-600 text-justify">Welcome to my personal blog!
 
                     My name is TYTY, and I’m a software developer, tech enthusiast, and lifelong learner from Vietnam. I created this space to document my journey — not just as a programmer navigating the ever-changing world of technology, but also as a human being trying to live a mindful, meaningful life.
